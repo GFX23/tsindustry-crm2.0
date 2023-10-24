@@ -1,5 +1,5 @@
 import { firebaseApp } from "./firebase";
-import { getFirestore, collection, addDoc, getDocs, query, deleteDoc, doc, getDoc, setDoc, DocumentReference } from "firebase/firestore"
+import { getFirestore, collection, addDoc, getDocs, query, deleteDoc, doc, getDoc, setDoc } from "firebase/firestore"
 import type { Order, Customer, Todo } from "../types/types";
 
 
